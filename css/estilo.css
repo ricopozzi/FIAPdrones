@@ -208,7 +208,7 @@ body {
 }
 
 .cartImage {
-    background: url('/img/galerias.fw.png');
+    background: url('../img/galerias.fw.png');
     background-position: -30px 125px;
     width: 70px;
     height: 63px;
@@ -319,7 +319,7 @@ body {
 .coursesImage {
     width: 100%;
     height: 42%;
-    background: url('/img/galerias2.fw.png') 0px 0px;
+    background: url('../img/galerias2.fw.png') 0px 0px;
 }
 
 .wineCard h2 {
@@ -343,7 +343,7 @@ body {
 
 .filmingsImage {
     height: 42%;
-    background: url('/img/galerias2.fw.png') 0px 140px;
+    background: url('../img/galerias2.fw.png') 0px 140px;
     object-fit: cover;
 
 }
@@ -357,7 +357,7 @@ body {
 
 .fixesImage {
     height: 42%;
-    background: url('/img/galerias2.fw.png') 0px 274px;
+    background: url('../img/galerias2.fw.png') 0px 274px;
 }
 
 .contentFixesContainer {
@@ -394,7 +394,7 @@ body {
 }
 
 .droneLogo {
-    background: url("/img/galerias.fw.png") 270px 120px;
+    background: url("../img/galerias.fw.png") 270px 120px;
     width: 180px;
     height: 50px;
     margin-left: 30px;
@@ -428,7 +428,7 @@ body {
 }
 
 .profImage {
-    background: url('/img/galerias.fw.png') 120px 0;
+    background: url('../img/galerias.fw.png') 120px 0;
     height: 210px;
     width: 110px;
     position: absolute;
@@ -436,7 +436,7 @@ body {
 }
 
 .drone1 {
-    background: url('/img/galerias.fw.png') 0px 300px;
+    background: url('../img/galerias.fw.png') 0px 300px;
     width: 170px;
     height: 60px;
     position: absolute;
@@ -444,7 +444,7 @@ body {
 }
 
 .drone2 {
-    background: url('/img/galerias.fw.png') 0px 300px;
+    background: url('../img/galerias.fw.png') 0px 300px;
     width: 170px;
     height: 60px;
     position: absolute;
@@ -453,7 +453,7 @@ body {
 }
 
 .drone3 {
-    background: url('/img/galerias.fw.png') 0px 300px;
+    background: url('../img/galerias.fw.png') 0px 300px;
     width: 170px;
     height: 60px;
     position: absolute;
