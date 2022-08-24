@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionAlign {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    flex-direction: column;
+    max-width: 980px;
+
+}
+
+.header {
+    height: 45px;
+    background-color: darkcyan;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logoImage {
+    position: absolute;
+    top: -16px;
+    left: 14px;
+    border: .5px solid darkcyan;
+
+}
+
+
+
+.buttonsContainer {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.buttons {
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    height: 100%;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.buttons:hover {
+    height: 130%;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #92C9CE;
+    color: white;
+    border: 0;
+    margin-right: 10px;
+}
+
+.buttonsBottom {
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    height: 100%;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.buttonsBottom:hover {
+    height: 130%;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    color: #660000;
+    border: 0;
+    margin-right: 10px;
+}
+
+.sectionFooter {
+    background-color: #660000;
+    height: 45px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.storeButton {
+    background-color: white;
+    color: #660000;
+    display: flex;
+    align-items: center;
+    height: 140%;
+    bottom: 0;
+    margin: 0 10px;
+    width: 100px;
+    height: 70px;
+    position: inherit;
+    font-size: 12px;
+}
+
+.storeTitle {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #660000;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    border-bottom: 2px solid #660000;
+    margin-top: 40px;
+
+}
+
+.droneImage {
+    background: url('../img/galerias.fw.png') 52% 0px;
+    width: 167px;
+    height: 90px;
+}
+
+.productsSection {
+    height: 374px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.DjiProduct {
+    width: 300px;
+    height: 100%;
+    border: 2px solid darkcyan;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.greenTitle {
+    height: 37px;
+    background-color: #92c9ce5e;
+    margin: 3px 5px 3px 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkcyan
+}
+
+.DjiImage {
+    background: url('../img/galerias3.fw.png');
+    width: 280px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DjiDescription {
+    font-size: 13px;
+    font-weight: 100;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 17px;
+    color: darkcyan;
+}
+
+.DjiFooter {
+    width: 100%;
+    height: 96px;
+    background-color: #1c9e99;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.pricesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+
+}
+
+.cartImage {
+    background: url('/img/galerias.fw.png');
+    background-position: -30px 125px;
+    width: 70px;
+    height: 63px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.ARImage {
+    background: url('../img/galerias3.fw.png');
+    background-position: 262px 0px;
+    width: 260px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PhantomProduct {
+    width: 300px;
+    height: 100%;
+    border: 2px solid #660000;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.redTitle {
+    height: 37px;
+    background-color: #6600003c;
+    margin: 3px 5px 3px 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #660000
+}
+
+.PhantomImage {
+    background: url('../img/galerias3.fw.png');
+    background-position: 501px;
+    width: 260px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PhantomDescription {
+    font-size: 13px;
+    font-weight: 100;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 17px;
+    color: #660000;
+}
+
+.PhantomFooter {
+    width: 100%;
+    height: 96px;
+    background-color: #660000;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.servicesTitle {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1c8e99;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    border-bottom: 2px solid #1c8e99;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.servicesImage {
+    background: url('../img/galerias.fw.png') 0px -14px;
+    width: 167px;
+    height: 98px;
+    margin-top: 10px;
+}
+
+.servicesSection {
+    height: 322px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.wineCard {
+    border: 1px solid #660000;
+    width: 300px;
+    height: 100%;
+    font-family: Tahoma;
+}
+
+.coursesImage {
+    width: 100%;
+    height: 42%;
+    background: url('/img/galerias2.fw.png') 0px 0px;
+}
+
+.wineCard h2 {
+    color: #660000;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0;
+}
+
+.contentContainer {
+    width: 100%;
+    height: fit-content;
+    padding: 8px;
+}
+
+.contentContainer p {
+    font-size: 13px;
+    width: 98%;
+    color: #660000;
+}
+
+.filmingsImage {
+    height: 42%;
+    background: url('/img/galerias2.fw.png') 0px 140px;
+    object-fit: cover;
+
+}
+
+.fixesCard {
+    border: 1px solid #1c8e99;
+    width: 300px;
+    height: 100%;
+    font-family: Tahoma;
+}
+
+.fixesImage {
+    height: 42%;
+    background: url('/img/galerias2.fw.png') 0px 274px;
+}
+
+.contentFixesContainer {
+    width: 100%;
+    height: fit-content;
+    padding: 8px;
+    font-family: Tahoma;
+    color: #1b8d99;
+}
+
+.contentFixesContainer h2 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.contentFixesContainer p {
+    font-size: 13px;
+    width: 95%;
+}
+
+.footerContainer {
+    width: 980px;
+    height: 122px;
+    background: #1c8e99;
+    margin: 140px auto 0 auto;
+    position: relative;
+}
+
+.topContainer {
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.droneLogo {
+    background: url("/img/galerias.fw.png") 270px 120px;
+    width: 180px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.topContainer p {
+    font-family: Tahoma;
+    color: white;
+    font-size: 14px;
+    margin-left: 100px;
+    width: 90%;
+}
+
+.bottomContainer {
+    width: 100%;
+    height: 26px;
+    background: #660000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+}
+
+.bottomContainer p {
+    margin: 0;
+    margin-right: 90px;
+    font-family: Tahoma;
+    color: white;
+    font-size: 14px;
+}
+
+.profImage {
+    background: url('/img/galerias.fw.png') 120px 0;
+    height: 210px;
+    width: 110px;
+    position: absolute;
+    bottom: -6px;
+}
+
+.drone1 {
+    background: url('/img/galerias.fw.png') 0px 300px;
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    top: -50px;
+}
+
+.drone2 {
+    background: url('/img/galerias.fw.png') 0px 300px;
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    top: -50px;
+    right: 420px;
+}
+
+.drone3 {
+    background: url('/img/galerias.fw.png') 0px 300px;
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    top: -50px;
+    right: 150px;
+}
